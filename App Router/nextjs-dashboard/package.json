@@ -1,11 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "prebuild": "pnpm rebuild bcrypt",
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start",
-    "postinstall": "pnpm rebuild bcrypt"
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
